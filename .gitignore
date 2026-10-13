@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Project data and generated artifacts
+data/
+artifacts/
+outputs/
+*.keras
+*.h5
+
+# Local tooling and caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
